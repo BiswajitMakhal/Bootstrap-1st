@@ -366,11 +366,13 @@ a {
     }
 
 }
+
 @media screen and (max-width:991px) {
-    .font-awsm{
+    .font-awsm {
         flex-direction: column;
     }
-    .button{
+
+    .button {
         margin-left: 0;
     }
 
@@ -388,6 +390,12 @@ a {
     }
 
     /* card section */
+
+    .col-3 {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
     .card {
         width: 150px !important;
     }
@@ -414,6 +422,18 @@ a {
 
     .bottom>img {
         max-width: 35%;
+    }
+
+    /* Ipdc-section */
+
+    .ipdc-btn{
+        padding: 4px;
+    }
+
+    /* services-section */
+
+    .services-section>div>p{
+        font-size: 15px;
     }
 
 }
