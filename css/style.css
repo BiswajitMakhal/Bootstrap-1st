@@ -394,6 +394,7 @@ a {
     .col-3 {
         width: 150px;
         margin-bottom: 10px;
+        padding: 0 9px;
     }
 
     .card {
